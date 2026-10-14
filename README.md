@@ -15,6 +15,7 @@ Cours associé : <https://douga19.github.io/efrei-git/>
 ## Prérequis
 
 - **Git 2.28 ou plus récent** (vérifie avec `git --version`).
+  Si Git n'est pas installé : <https://git-scm.com/downloads> (sous Windows, il installe aussi Git Bash).
 - Sur Windows, **Git Bash** (installé avec [Git for Windows](https://gitforwindows.org/)) :
   c'est le terminal du cours.
 
@@ -48,9 +49,10 @@ Le but est de pouvoir taper `gitquest` depuis n'importe quel dossier.
 2. Copie `gitquest.exe` dans le dossier `~/bin`. Dans Git Bash :
    ```sh
    mkdir -p ~/bin
-   cp ~/Downloads/gitquest_*_windows_amd64/gitquest.exe ~/bin/
+   cp <chemin vers gitquest.exe> ~/bin/
    ```
-   (`Downloads` peut s'appeler `Téléchargements` selon ta configuration.)
+   Remplace `<chemin vers gitquest.exe>` par l'emplacement du fichier extrait,
+   par exemple `~/Downloads/gitquest_v0.1.0_windows_amd64/gitquest.exe`.
 3. Ferme puis rouvre Git Bash : il ajoute `~/bin` au PATH automatiquement.
 
 ### macOS et Linux

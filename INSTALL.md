@@ -2,6 +2,8 @@
 
 gitquest est un seul fichier exécutable. Il n'y a rien d'autre à installer,
 à part **Git 2.28 ou plus récent** (vérifie avec `git --version`).
+Si Git n'est pas installé, télécharge-le sur <https://git-scm.com/downloads>
+(sous Windows, il installe aussi Git Bash).
 
 ## 1. Télécharger
 
@@ -38,9 +40,10 @@ messages de gitquest après tes commandes.
    Dans Git Bash :
    ```sh
    mkdir -p ~/bin
-   cp ~/Downloads/gitquest_*_windows_amd64/gitquest.exe ~/bin/
+   cp <chemin vers gitquest.exe> ~/bin/
    ```
-   (`Downloads` peut s'appeler `Téléchargements` selon ta configuration.)
+   Remplace `<chemin vers gitquest.exe>` par l'emplacement du fichier extrait,
+   par exemple `~/Downloads/gitquest_v0.1.0_windows_amd64/gitquest.exe`.
 3. Git Bash ajoute `~/bin` au PATH automatiquement : ferme puis rouvre Git Bash.
 
 Pour utiliser gitquest aussi dans PowerShell ou l'invite de commandes, ajoute
