@@ -46,7 +46,7 @@ Dans la section *Assets*, télécharge l'archive qui correspond à ton système 
 
 Sur macOS, menu Pomme → *À propos de ce Mac* indique « Puce Apple » ou « Intel ».
 
-## Installer
+## 3. Installer gitquest
 
 Le but est de pouvoir taper `gitquest` depuis n'importe quel dossier.
 
@@ -77,7 +77,7 @@ Si `~/.local/bin` n'est pas déjà dans ton PATH, ajoute cette ligne à la fin d
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-## Premier lancement : avertissement de sécurité
+## 4. Premier lancement : avertissement de sécurité
 
 gitquest n'est pas signé numériquement. Au premier lancement, le système
 indique qu'il ne connaît pas l'éditeur : c'est attendu, et cela ne se produit
@@ -94,7 +94,7 @@ qu'une fois.
   Tu peux aussi passer par *Réglages Système* → *Confidentialité et sécurité*
   → *Ouvrir quand même*.
 
-## Démarrer
+## 5. Démarrer
 
 ```sh
 gitquest version      # doit afficher gitquest v…
