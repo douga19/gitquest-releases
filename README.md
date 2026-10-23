@@ -12,16 +12,23 @@ téléchargeables du programme.
 
 Cours associé : <https://douga19.github.io/efrei-git/>
 
-## Prérequis
+## 1. Installer Git
 
-- **Git 2.28 ou plus récent** (vérifie avec `git --version`).
-  Si Git n'est pas installé : <https://git-scm.com/downloads> (sous Windows, il installe aussi Git Bash).
-- Sur Windows, **Git Bash** (installé avec [Git for Windows](https://gitforwindows.org/)) :
-  c'est le terminal du cours.
+gitquest est un seul fichier exécutable : la seule chose à installer avant,
+c'est **Git 2.28 ou plus récent**. Vérifie d'abord s'il est déjà là : ouvre un
+terminal et tape `git --version`.
 
-gitquest est un seul fichier exécutable : il n'y a rien d'autre à installer.
+- **Windows** : télécharge l'installateur sur <https://git-scm.com/download/win>
+  et lance-le en gardant les options par défaut. Il installe aussi **Git Bash**,
+  le terminal à utiliser avec gitquest.
+- **macOS** : tape `git --version` dans l'application Terminal. Si Git n'est pas
+  installé, macOS propose d'installer les « outils de ligne de commande » :
+  accepte. (Avec [Homebrew](https://brew.sh) : `brew install git`.)
+- **Linux** : `sudo apt install git` (Debian, Ubuntu) ou `sudo dnf install git` (Fedora).
 
-## Télécharger
+Ferme puis rouvre le terminal, et vérifie avec `git --version`.
+
+## 2. Télécharger gitquest
 
 Ouvre la page de la dernière version :
 <https://github.com/douga19/gitquest-releases/releases/latest>

@@ -1,9 +1,24 @@
 # Installer gitquest
 
 gitquest est un seul fichier exécutable. Il n'y a rien d'autre à installer,
-à part **Git 2.28 ou plus récent** (vérifie avec `git --version`).
-Si Git n'est pas installé, télécharge-le sur <https://git-scm.com/downloads>
-(sous Windows, il installe aussi Git Bash).
+à part **Git 2.28 ou plus récent**.
+
+## 0. Installer Git
+
+Vérifie d'abord si Git est déjà installé : ouvre un terminal et tape
+`git --version`. Si une version 2.28 ou plus récente s'affiche, passe à l'étape 1.
+
+- **Windows** : télécharge l'installateur sur <https://git-scm.com/download/win>
+  et lance-le en gardant les options proposées par défaut. Il installe aussi
+  **Git Bash**, le terminal à utiliser avec gitquest.
+- **macOS** : tape `git --version` dans l'application Terminal. Si Git n'est pas
+  installé, macOS propose d'installer les « outils de ligne de commande » :
+  accepte. (Avec [Homebrew](https://brew.sh) : `brew install git`.)
+- **Linux** : `sudo apt install git` (Debian, Ubuntu) ou `sudo dnf install git`
+  (Fedora).
+
+Toutes les versions : <https://git-scm.com/downloads>. Une fois installé, ferme
+puis rouvre le terminal et vérifie avec `git --version`.
 
 ## 1. Télécharger
 
